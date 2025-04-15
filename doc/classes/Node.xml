@@ -86,7 +86,7 @@
 				[codeblock]
 				func _input(event):
 				    if event.is_action_pressed("action_name"):
-				        # Excute code.
+				        # Execute code.
 				        get_viewport().set_input_as_handled()
 				[/codeblock]
 				For gameplay input, [method _unhandled_input] and [method _unhandled_key_input] are usually a better fit as they allow the GUI to intercept the events first.
